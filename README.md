@@ -68,9 +68,17 @@ verified by executing the notebook in the intended environment.
 
 **Input file:** `dataset-2.csv`
 
-The notebook is designed around a dataset containing **100,000 rows and
-28 columns**. Confirm these dimensions when loading the exact dataset
-version used for submission.
+### Dataset access and sharing notice
+
+**Please do not upload, commit, or redistribute the dataset CSV in this GitHub repository.** The dataset was provided for project work and should be handled according to the original provider's terms and the internship guidelines.
+
+Download or access the dataset from the supplied Google Drive link:
+
+**[Open / download `dataset-2.csv` from Google Drive](https://drive.google.com/file/d/1cGQxIz2i7NVg84HjzDtyWQkH)**
+
+If access is denied, request permission from the file owner rather than copying the dataset from another source. The Google Drive owner may need to enable access for intended reviewers.
+
+The notebook is designed around a dataset containing **100,000 rows and 28 columns**. Confirm these dimensions when loading the authorised dataset version used for submission.
 
 The target column is `Credit_Score`, with three categories: `Good`,
 `Standard`, and `Poor`.
@@ -228,15 +236,21 @@ A suggested repository structure is:
 ``` text
 paisabazaar-banking-fraud-analysis/
 ├── Sample_ML_Submission.ipynb
-├── dataset-2.csv                         # Keep private or omit if redistribution is not permitted
+├── data/                                 # Local-only folder; do not commit the dataset
+│   └── dataset-2.csv                     # Obtain separately from the authorised Drive link
 ├── paisabazaar_credit_score_model.joblib  # Optional generated artifact
 ├── requirements.txt
 └── README.md
 ```
 
-Actual filenames may differ. Keep the dataset, generated model, and
-notebook in the paths expected by your code, or update those paths
-before running.
+Actual filenames may differ. Download the dataset from the authorised Google Drive link above and place it locally in the path expected by your notebook. **Do not add `dataset-2.csv` to Git or publish it in the repository.** Keep the dataset, generated model, and notebook in the paths expected by your code, or update those paths before running.
+
+To avoid accidentally committing the dataset, consider adding the following entry to `.gitignore`:
+
+```gitignore
+data/dataset-2.csv
+dataset-2.csv
+```
 
 ## Installation and Setup
 
