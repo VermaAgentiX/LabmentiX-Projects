@@ -74,7 +74,7 @@ verified by executing the notebook in the intended environment.
 
 Download or access the dataset from the supplied Google Drive link:
 
-**[Open / download `dataset-2.csv` from Google Drive](https://drive.google.com/file/d/1cGQxIz2i7NVg84HjzDtyWQkH)**
+**[Open / download `dataset-2.csv` from Google Drive](https://drive.google.com/file/d/1vF0UEfbOovfWlJCCK9phwwP3uykDiKOG/view?usp=sharing)**
 
 If access is denied, request permission from the file owner rather than copying the dataset from another source. The Google Drive owner may need to enable access for intended reviewers.
 
