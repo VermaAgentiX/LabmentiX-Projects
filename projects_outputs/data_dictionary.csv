@@ -1,0 +1,29 @@
+Column,Working description,Notes
+ID,Record identifier,Identifier; normally excluded from analysis
+Customer_ID,Customer identifier,Identifier; repeated rows may represent monthly records
+Month,Month index,Time-period field
+Name,Customer name,Personally identifying; exclude from modelling/EDA features
+Age,Customer age,Numeric demographic feature
+SSN,Social security number-like identifier,Sensitive identifier; do not use as a predictive feature
+Occupation,Customer occupation,Categorical demographic feature
+Annual_Income,Annual income,Numeric financial feature
+Monthly_Inhand_Salary,Monthly take-home salary,Numeric financial feature
+Num_Bank_Accounts,Number of bank accounts,Numeric count feature
+Num_Credit_Card,Number of credit cards,Numeric count feature
+Interest_Rate,Interest rate field,Numeric financial feature
+Num_of_Loan,Number of loans,Numeric count feature
+Type_of_Loan,Types of loans held,Text/categorical feature
+Delay_from_due_date,Delay relative to due date,Payment-behaviour feature
+Num_of_Delayed_Payment,Number of delayed payments,Payment-behaviour feature
+Changed_Credit_Limit,Change in credit limit,Numeric financial feature
+Num_Credit_Inquiries,Number of credit inquiries,Numeric count feature
+Credit_Mix,Credit mix category,Categorical credit feature
+Outstanding_Debt,Outstanding debt amount,Numeric financial feature
+Credit_Utilization_Ratio,Credit utilisation ratio,Numeric credit feature
+Credit_History_Age,"Credit history age, represented numerically",Numeric history feature; units should be verified
+Payment_of_Min_Amount,Whether minimum amount was paid,Categorical payment feature
+Total_EMI_per_month,Total monthly EMI,Numeric financial feature
+Amount_invested_monthly,Monthly investment amount,Numeric financial feature
+Payment_Behaviour,Payment behaviour category,Categorical payment feature
+Monthly_Balance,Monthly balance,Numeric financial feature
+Credit_Score,Credit-score category,Target/outcome for this EDA
