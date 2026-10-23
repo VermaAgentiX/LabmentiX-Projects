@@ -1,4 +1,4 @@
-# Paisabazaar Banking Fraud Analysis
+# Project1 - Paisabazaar Banking Fraud Analysis (AIML Stream)
 
 ### Exploratory Data Analysis and Credit Score Classification
 
